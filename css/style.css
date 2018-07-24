@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+}
+body{
+	background: url('../img/bg/bg.png') no-repeat;
+	background-size: cover;
+	font-family: 'Lobster Two', cursive;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+}
+.login-form {
+	width: 800px;
+	margin: 10% auto;
+	background: url('../img/bg/login.png') no-repeat;
+	height: 450px;
+	border-radius: 5px;
+}
+
+/**Login Top Css**/
+.login-form .login-top {
+	
+	margin: 0 auto;
+	
+}
+.login-form .login-top .ribbon-top {
+	display: block;
+	margin: 0 auto;
+	
+}
+.login-form .login-top h1{
+	
+	text-align: center;
+	display: block;
+	margin-top: 25px;
+	text-transform: uppercase;
+	color: #fff;	
+}
+
+.login-form .login-body {
+	margin: 5% auto;
+	width: 375px;
+}
+.login-form .login-body form {
+	margin: 0 auto;
+	padding: 0px 40px 0 40px;
+}
+.login-form .login-body form .form-control {
+	width: 100%;
+	padding: 10px 5px 10px 0;
+	background-color: transparent;
+	border: 1px solid #7778764d;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #ddd8d8;
+	text-indent: 50px;
+	font-size: 11px;
+	color: #fff;
+	margin-top: 10px;
+}
+.login-form .login-body form .input-image {
+	position: absolute;
+	margin-top: 17px;
+	margin-left: 10px;
+}
+.login-form .login-body form .login-btn {
+	width: 100%;
+	padding: 5px 0 5px 0;
+	margin-top: 15px;
+	background-color: #89CF57;
+	border: 1px solid #83CE4C;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 500;
+	box-shadow: 2px 1px 5px #72b046;
+}
+
